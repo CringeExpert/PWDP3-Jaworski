@@ -1,3 +1,0 @@
-/run/media/szymon/C672518E725183D9/Users/Szymon/OneDrive - Uniwersytet Wrocławski/Files/C++/CPP/List_2/Compile/build/CMakeFiles/simple.dir
-/run/media/szymon/C672518E725183D9/Users/Szymon/OneDrive - Uniwersytet Wrocławski/Files/C++/CPP/List_2/Compile/build/CMakeFiles/edit_cache.dir
-/run/media/szymon/C672518E725183D9/Users/Szymon/OneDrive - Uniwersytet Wrocławski/Files/C++/CPP/List_2/Compile/build/CMakeFiles/rebuild_cache.dir
