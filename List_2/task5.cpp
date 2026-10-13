@@ -1,8 +1,9 @@
 #include <iostream>
     using std::cout;
     using std::cin;
+    using fmt::format;
 
 int main(){
-    std::print("\n");
+    cout << format("{:X}","\n");
     //Nazwiązując do komentarza z poprzedniego zadania, to jest dokładnie \n
 }
