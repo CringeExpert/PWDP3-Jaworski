@@ -1,7 +1,14 @@
 #include <iostream>
-    using std::cout;
-    using std::cin;
+#include <fmt/format.h>
+
+using std::cout;
+using fmt::format;
 
 int main(){
-    cout << "test";
+
+    std::string napis = "test";
+    for (auto litera: napis){
+        cout << format("{:X}",litera);
+    }
 }
+

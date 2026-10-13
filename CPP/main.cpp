@@ -6,6 +6,8 @@ using fmt::format;
 
 int main(){
 
-    cout << format("{:x}\n",'\n');
-    cout << "t";
+    std::string napis = "test";
+    for (auto litera: napis){
+        cout << format("{:X}",litera);
+    }
 }
