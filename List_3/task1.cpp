@@ -3,13 +3,19 @@
 
 using std::cin;
 using std::cout;
-using fmt::format;
 
 int main(){
 
     std::string og;
+    cout << "Podaj napis: ";
     cin >> og;
-    cout << og;
+    std::string result;
+
+    for (int i = og.size(); i >= 0; i--){
+        result += og[i];
+    }
+
+    cout << result;
 
 }
 
