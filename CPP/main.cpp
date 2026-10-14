@@ -3,15 +3,21 @@
 
 using std::cin;
 using std::cout;
+using std::string;
 
 int main(){
+    string text;
+    cout << "Podaj tekst: ";
+    cin >> text;
 
-    for (int i = 1; i <= 10; i++){
-
-        for (int j = 1; j <= 10; j++){
-            cout << i*j << "\t";
+    for (int i = 0; i < text.length(); i++){
+        if (i % 2 == 0){
+            cout << "\e[1;31m" << text[i];
         }
-        cout << "\n";
+        else{
+            cout << "\e[1;32m" << text[i];
+        }
     }
 
+    cout << "\e[0m";
 }
