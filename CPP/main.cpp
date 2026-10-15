@@ -1,23 +1,15 @@
+// C++ Program to implement
+// C++ 20 - std::format
+#include <format>
 #include <iostream>
-#include <fmt/format.h>
 
-using std::cin;
-using std::cout;
-using std::string;
+int main()
+{
+    double num = 3.14159;
+    std::string name = "John";
 
-int main(){
-    string text;
-    cout << "Podaj tekst: ";
-    cin >> text;
 
-    for (int i = 0; i < text.length(); i++){
-        if (i % 2 == 0){
-            cout << "\e[1;31m" << text[i];
-        }
-        else{
-            cout << "\e[1;32m" << text[i];
-        }
-    }
+    std::cout << std::format("{:x}", 'c');
 
-    cout << "\e[0m";
+    return 0;
 }
