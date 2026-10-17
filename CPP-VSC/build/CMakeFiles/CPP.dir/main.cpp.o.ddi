@@ -1,9 +1,11 @@
 {
-  "revision": 0,
-  "rules": [
-    {
-      "primary-output": "CMakeFiles/CPP.dir/main.cpp.o"
-    }
-  ],
-  "version": 1
+"rules": [
+{
+"primary-output": "CMakeFiles/CPP.dir/main.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
 }

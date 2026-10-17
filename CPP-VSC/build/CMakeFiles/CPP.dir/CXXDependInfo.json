@@ -1,7 +1,7 @@
 {
 	"bmi-installation" : null,
 	"compiler-frontend-variant" : "GNU",
-	"compiler-id" : "Clang",
+	"compiler-id" : "GNU",
 	"compiler-simulate-id" : "",
 	"config" : "Debug",
 	"cxx-modules" : {},

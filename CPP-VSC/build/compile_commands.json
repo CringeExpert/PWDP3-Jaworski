@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/szymon/Documents/Git/pwdp3/CPP-VSC/build",
-  "command": "/usr/bin/clang++-22 -DFMT_SHARED -g -std=gnu++23 @CMakeFiles/CPP.dir/main.cpp.o.modmap -o CMakeFiles/CPP.dir/main.cpp.o -c /home/szymon/Documents/Git/pwdp3/CPP-VSC/main.cpp",
+  "command": "/usr/bin/g++ -DFMT_SHARED -g -std=gnu++23 -fmodules-ts -fmodule-mapper=CMakeFiles/CPP.dir/main.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/CPP.dir/main.cpp.o -c /home/szymon/Documents/Git/pwdp3/CPP-VSC/main.cpp",
   "file": "/home/szymon/Documents/Git/pwdp3/CPP-VSC/main.cpp",
   "output": "/home/szymon/Documents/Git/pwdp3/CPP-VSC/build/CMakeFiles/CPP.dir/main.cpp.o"
 }
