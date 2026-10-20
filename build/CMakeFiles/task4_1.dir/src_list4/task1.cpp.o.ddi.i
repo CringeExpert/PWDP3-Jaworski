@@ -72544,16 +72544,14 @@ int main(){
     const int width = 800;
     const int height = 800;
     const int max_color = 1;
+    const int block_size = 100;
 
-    string filename = "name.pgm";
+    string filename = "../img.pgm";
     std::ofstream out(filename);
 
     std::vector<std::vector<int>> pixels;
 
-    out <<
-    "P2\n"
-    "800 800\n"
-    "1\n";
+    out << std::format("P2\n{} {}\n1\n",width,height);
 
     pixels.resize(width);
 
@@ -72561,19 +72559,11 @@ int main(){
         pixels[i].resize(height);
     }
 
-    bool black = 1;
+    for (int i = 0; i < height; i++){
 
-    for (int i = 0; i < width; i++){
+        for (int j = 0; j < width; j++){
 
-        if (i % 100 == 0)
-                black = !black;
-
-        for (int j = 0; j < height; j++){
-
-            pixels[i][j] = black;
-
-            if (j % 100 == 0)
-                black = !black;
+            pixels[i][j] = 1 - (i/block_size + j/block_size) % 2;
 
             out << pixels[i][j] << " ";
 
