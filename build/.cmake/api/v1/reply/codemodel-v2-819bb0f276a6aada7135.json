@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-9ad1a58d4644cf6543fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CPP",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "task3_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task3_1-Debug-7e3a5f6ff2e726d9bec4.json",
+					"name" : "task3_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task3_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task3_2-Debug-07f2aec950e248cd6f14.json",
+					"name" : "task3_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task3_4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task3_4-Debug-716945a2b1b974d3974f.json",
+					"name" : "task3_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task3_5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task3_5-Debug-1a2e251f6706febaba2b.json",
+					"name" : "task3_5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task3_6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task3_6-Debug-0732df981404da18c6c5.json",
+					"name" : "task3_6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task4_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task4_1-Debug-4109dd77f101f15c7266.json",
+					"name" : "task4_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task4_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task4_2-Debug-60efaabe08d1340c0409.json",
+					"name" : "task4_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task4_4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task4_4-Debug-2014dca1429aecfe1897.json",
+					"name" : "task4_4",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/szymon/Documents/Git/pwdp3/build",
+		"source" : "/home/szymon/Documents/Git/pwdp3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

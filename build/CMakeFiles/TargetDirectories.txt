@@ -1,0 +1,10 @@
+/home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task3_1.dir
+/home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task3_2.dir
+/home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task3_4.dir
+/home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task3_5.dir
+/home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task3_6.dir
+/home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task4_1.dir
+/home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task4_2.dir
+/home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task4_4.dir
+/home/szymon/Documents/Git/pwdp3/build/CMakeFiles/edit_cache.dir
+/home/szymon/Documents/Git/pwdp3/build/CMakeFiles/rebuild_cache.dir

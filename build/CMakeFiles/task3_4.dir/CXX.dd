@@ -1,0 +1,3 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/task3_4.dir/src_list3/task4.cpp.o: dyndep
+

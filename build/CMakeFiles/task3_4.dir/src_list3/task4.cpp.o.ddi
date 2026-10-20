@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/task3_4.dir/src_list3/task4.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}
