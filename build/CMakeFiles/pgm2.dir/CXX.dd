@@ -1,0 +1,3 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/pgm2.dir/src_list4/pgm0a.cpp.o: dyndep
+

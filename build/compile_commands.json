@@ -43,8 +43,8 @@
 },
 {
   "directory": "/home/szymon/Documents/Git/pwdp3/build",
-  "command": "/usr/bin/g++ -g -std=gnu++20 -fmodules-ts -fmodule-mapper=CMakeFiles/task4_4.dir/src_list4/task3.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/task4_4.dir/src_list4/task3.cpp.o -c /home/szymon/Documents/Git/pwdp3/src_list4/task3.cpp",
+  "command": "/usr/bin/g++ -g -std=gnu++20 -fmodules-ts -fmodule-mapper=CMakeFiles/task4_3.dir/src_list4/task3.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/task4_3.dir/src_list4/task3.cpp.o -c /home/szymon/Documents/Git/pwdp3/src_list4/task3.cpp",
   "file": "/home/szymon/Documents/Git/pwdp3/src_list4/task3.cpp",
-  "output": "/home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task4_4.dir/src_list4/task3.cpp.o"
+  "output": "/home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task4_3.dir/src_list4/task3.cpp.o"
 }
 ]
