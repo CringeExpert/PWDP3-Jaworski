@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "task4_3"
+			"path" : "task4_3b"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 18,
+				"line" : 19,
 				"parent" : 0
 			}
 		]
@@ -58,7 +58,7 @@
 			]
 		}
 	],
-	"id" : "task4_3::@6890427a1f51a3e7e1df",
+	"id" : "task4_3b::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -70,8 +70,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "task4_3",
-	"nameOnDisk" : "task4_3",
+	"name" : "task4_3b",
+	"nameOnDisk" : "task4_3b",
 	"paths" : 
 	{
 		"build" : ".",
@@ -92,7 +92,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src_list4/task3.cpp",
+			"path" : "src_list4/task3b.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -377,52 +377,100 @@ build task4_2: CXX_EXECUTABLE_LINKER__task4_2_Debug CMakeFiles/task4_2.dir/src_l
   TARGET_SUPPORT_DIR = CMakeFiles/task4_2.dir
 
 # =============================================================================
-# Object build statements for EXECUTABLE target task4_3
+# Object build statements for EXECUTABLE target task4_3a
 
 
 #############################################
-# Order-only phony target for task4_3
+# Order-only phony target for task4_3a
 
-build cmake_object_order_depends_target_task4_3: phony || .
+build cmake_object_order_depends_target_task4_3a: phony || .
 
-build CMakeFiles/task4_3.dir/src_list4/task3.cpp.o.ddi: CXX_SCAN__task4_3_Debug /home/szymon/Documents/Git/pwdp3/src_list4/task3.cpp || cmake_object_order_depends_target_task4_3
-  DEP_FILE = CMakeFiles/task4_3.dir/src_list4/task3.cpp.o.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/task4_3.dir/src_list4/task3.cpp.o.ddi
+build CMakeFiles/task4_3a.dir/src_list4/task3a.cpp.o.ddi: CXX_SCAN__task4_3a_Debug /home/szymon/Documents/Git/pwdp3/src_list4/task3a.cpp || cmake_object_order_depends_target_task4_3a
+  DEP_FILE = CMakeFiles/task4_3a.dir/src_list4/task3a.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/task4_3a.dir/src_list4/task3a.cpp.o.ddi
   FLAGS = -g -std=gnu++20
-  OBJ_FILE = CMakeFiles/task4_3.dir/src_list4/task3.cpp.o
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles/task4_3.dir/src_list4/task3.cpp.o.ddi.i
+  OBJ_FILE = CMakeFiles/task4_3a.dir/src_list4/task3a.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/task4_3a.dir/src_list4/task3a.cpp.o.ddi.i
 
-build CMakeFiles/task4_3.dir/src_list4/task3.cpp.o: CXX_COMPILER__task4_3_scanned_Debug /home/szymon/Documents/Git/pwdp3/src_list4/task3.cpp | CMakeFiles/task4_3.dir/src_list4/task3.cpp.o.modmap || cmake_object_order_depends_target_task4_3 CMakeFiles/task4_3.dir/CXX.dd
+build CMakeFiles/task4_3a.dir/src_list4/task3a.cpp.o: CXX_COMPILER__task4_3a_scanned_Debug /home/szymon/Documents/Git/pwdp3/src_list4/task3a.cpp | CMakeFiles/task4_3a.dir/src_list4/task3a.cpp.o.modmap || cmake_object_order_depends_target_task4_3a CMakeFiles/task4_3a.dir/CXX.dd
   CONFIG = Debug
-  DEP_FILE = CMakeFiles/task4_3.dir/src_list4/task3.cpp.o.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles/task4_3.dir/src_list4/task3.cpp.o.modmap
+  DEP_FILE = CMakeFiles/task4_3a.dir/src_list4/task3a.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/task4_3a.dir/src_list4/task3a.cpp.o.modmap
   FLAGS = -g -std=gnu++20
-  OBJECT_DIR = CMakeFiles/task4_3.dir
-  OBJECT_FILE_DIR = CMakeFiles/task4_3.dir/src_list4
-  TARGET_SUPPORT_DIR = CMakeFiles/task4_3.dir
-  dyndep = CMakeFiles/task4_3.dir/CXX.dd
+  OBJECT_DIR = CMakeFiles/task4_3a.dir
+  OBJECT_FILE_DIR = CMakeFiles/task4_3a.dir/src_list4
+  TARGET_SUPPORT_DIR = CMakeFiles/task4_3a.dir
+  dyndep = CMakeFiles/task4_3a.dir/CXX.dd
 
-build CMakeFiles/task4_3.dir/CXX.dd | CMakeFiles/task4_3.dir/CXXModules.json CMakeFiles/task4_3.dir/src_list4/task3.cpp.o.modmap: CXX_DYNDEP__task4_3_Debug CMakeFiles/task4_3.dir/src_list4/task3.cpp.o.ddi | /home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task4_3.dir/CXXDependInfo.json
+build CMakeFiles/task4_3a.dir/CXX.dd | CMakeFiles/task4_3a.dir/CXXModules.json CMakeFiles/task4_3a.dir/src_list4/task3a.cpp.o.modmap: CXX_DYNDEP__task4_3a_Debug CMakeFiles/task4_3a.dir/src_list4/task3a.cpp.o.ddi | /home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task4_3a.dir/CXXDependInfo.json
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target task4_3
+# Link build statements for EXECUTABLE target task4_3a
 
 
 #############################################
-# Link the executable task4_3
+# Link the executable task4_3a
 
-build task4_3: CXX_EXECUTABLE_LINKER__task4_3_Debug CMakeFiles/task4_3.dir/src_list4/task3.cpp.o
+build task4_3a: CXX_EXECUTABLE_LINKER__task4_3a_Debug CMakeFiles/task4_3a.dir/src_list4/task3a.cpp.o
   CONFIG = Debug
-  DEP_FILE = CMakeFiles/task4_3.dir/link.d
+  DEP_FILE = CMakeFiles/task4_3a.dir/link.d
   FLAGS = -g
-  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/task4_3.dir/link.d
-  OBJECT_DIR = CMakeFiles/task4_3.dir
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/task4_3a.dir/link.d
+  OBJECT_DIR = CMakeFiles/task4_3a.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = task4_3
-  TARGET_PDB = task4_3.dbg
-  TARGET_SUPPORT_DIR = CMakeFiles/task4_3.dir
+  TARGET_FILE = task4_3a
+  TARGET_PDB = task4_3a.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles/task4_3a.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task4_3b
+
+
+#############################################
+# Order-only phony target for task4_3b
+
+build cmake_object_order_depends_target_task4_3b: phony || .
+
+build CMakeFiles/task4_3b.dir/src_list4/task3b.cpp.o.ddi: CXX_SCAN__task4_3b_Debug /home/szymon/Documents/Git/pwdp3/src_list4/task3b.cpp || cmake_object_order_depends_target_task4_3b
+  DEP_FILE = CMakeFiles/task4_3b.dir/src_list4/task3b.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/task4_3b.dir/src_list4/task3b.cpp.o.ddi
+  FLAGS = -g -std=gnu++20
+  OBJ_FILE = CMakeFiles/task4_3b.dir/src_list4/task3b.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/task4_3b.dir/src_list4/task3b.cpp.o.ddi.i
+
+build CMakeFiles/task4_3b.dir/src_list4/task3b.cpp.o: CXX_COMPILER__task4_3b_scanned_Debug /home/szymon/Documents/Git/pwdp3/src_list4/task3b.cpp | CMakeFiles/task4_3b.dir/src_list4/task3b.cpp.o.modmap || cmake_object_order_depends_target_task4_3b CMakeFiles/task4_3b.dir/CXX.dd
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/task4_3b.dir/src_list4/task3b.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/task4_3b.dir/src_list4/task3b.cpp.o.modmap
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles/task4_3b.dir
+  OBJECT_FILE_DIR = CMakeFiles/task4_3b.dir/src_list4
+  TARGET_SUPPORT_DIR = CMakeFiles/task4_3b.dir
+  dyndep = CMakeFiles/task4_3b.dir/CXX.dd
+
+build CMakeFiles/task4_3b.dir/CXX.dd | CMakeFiles/task4_3b.dir/CXXModules.json CMakeFiles/task4_3b.dir/src_list4/task3b.cpp.o.modmap: CXX_DYNDEP__task4_3b_Debug CMakeFiles/task4_3b.dir/src_list4/task3b.cpp.o.ddi | /home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task4_3b.dir/CXXDependInfo.json
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task4_3b
+
+
+#############################################
+# Link the executable task4_3b
+
+build task4_3b: CXX_EXECUTABLE_LINKER__task4_3b_Debug CMakeFiles/task4_3b.dir/src_list4/task3b.cpp.o
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/task4_3b.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/task4_3b.dir/link.d
+  OBJECT_DIR = CMakeFiles/task4_3b.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = task4_3b
+  TARGET_PDB = task4_3b.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles/task4_3b.dir
 
 
 #############################################
@@ -458,7 +506,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/szymon/Documents/Git/pwdp3/build
 
-build all: phony task3_1 task3_2 task3_4 task3_5 task3_6 task4_1 task4_2 task4_3
+build all: phony task3_1 task3_2 task3_4 task3_5 task3_6 task4_1 task4_2 task4_3a task4_3b
 
 # =============================================================================
 # Built-in targets

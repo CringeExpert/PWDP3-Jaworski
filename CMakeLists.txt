@@ -15,4 +15,5 @@ add_executable(task3_6 src_list3/task6.cpp)
 
 add_executable(task4_1 src_list4/task1.cpp)
 add_executable(task4_2 src_list4/task2.cpp)
-add_executable(task4_3 src_list4/task3.cpp)
+add_executable(task4_3a src_list4/task3a.cpp)
+add_executable(task4_3b src_list4/task3b.cpp)
