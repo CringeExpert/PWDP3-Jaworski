@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.28)
 
 project(CPP LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # add_executable(temp temp.cpp)
@@ -17,3 +17,6 @@ add_executable(task4_1 src_list4/task1.cpp)
 add_executable(task4_2 src_list4/task2.cpp)
 add_executable(task4_3a src_list4/task3a.cpp)
 add_executable(task4_3b src_list4/task3b.cpp)
+
+add_executable(task5_1 src_list5/task1.cpp)
+add_executable(task5_2 src_list5/task2.cpp)

@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_task3_1: phony || .
 build CMakeFiles/task3_1.dir/src_list3/task1.cpp.o.ddi: CXX_SCAN__task3_1_Debug /home/szymon/Documents/Git/pwdp3/src_list3/task1.cpp || cmake_object_order_depends_target_task3_1
   DEP_FILE = CMakeFiles/task3_1.dir/src_list3/task1.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/task3_1.dir/src_list3/task1.cpp.o.ddi
-  FLAGS = -g -std=gnu++20
+  FLAGS = -g -std=gnu++23
   OBJ_FILE = CMakeFiles/task3_1.dir/src_list3/task1.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/task3_1.dir/src_list3/task1.cpp.o.ddi.i
 
@@ -60,7 +60,7 @@ build CMakeFiles/task3_1.dir/src_list3/task1.cpp.o: CXX_COMPILER__task3_1_scanne
   CONFIG = Debug
   DEP_FILE = CMakeFiles/task3_1.dir/src_list3/task1.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/task3_1.dir/src_list3/task1.cpp.o.modmap
-  FLAGS = -g -std=gnu++20
+  FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles/task3_1.dir
   OBJECT_FILE_DIR = CMakeFiles/task3_1.dir/src_list3
   TARGET_SUPPORT_DIR = CMakeFiles/task3_1.dir
@@ -100,7 +100,7 @@ build cmake_object_order_depends_target_task3_2: phony || .
 build CMakeFiles/task3_2.dir/src_list3/task2.cpp.o.ddi: CXX_SCAN__task3_2_Debug /home/szymon/Documents/Git/pwdp3/src_list3/task2.cpp || cmake_object_order_depends_target_task3_2
   DEP_FILE = CMakeFiles/task3_2.dir/src_list3/task2.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/task3_2.dir/src_list3/task2.cpp.o.ddi
-  FLAGS = -g -std=gnu++20
+  FLAGS = -g -std=gnu++23
   OBJ_FILE = CMakeFiles/task3_2.dir/src_list3/task2.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/task3_2.dir/src_list3/task2.cpp.o.ddi.i
 
@@ -108,7 +108,7 @@ build CMakeFiles/task3_2.dir/src_list3/task2.cpp.o: CXX_COMPILER__task3_2_scanne
   CONFIG = Debug
   DEP_FILE = CMakeFiles/task3_2.dir/src_list3/task2.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/task3_2.dir/src_list3/task2.cpp.o.modmap
-  FLAGS = -g -std=gnu++20
+  FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles/task3_2.dir
   OBJECT_FILE_DIR = CMakeFiles/task3_2.dir/src_list3
   TARGET_SUPPORT_DIR = CMakeFiles/task3_2.dir
@@ -148,7 +148,7 @@ build cmake_object_order_depends_target_task3_4: phony || .
 build CMakeFiles/task3_4.dir/src_list3/task4.cpp.o.ddi: CXX_SCAN__task3_4_Debug /home/szymon/Documents/Git/pwdp3/src_list3/task4.cpp || cmake_object_order_depends_target_task3_4
   DEP_FILE = CMakeFiles/task3_4.dir/src_list3/task4.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/task3_4.dir/src_list3/task4.cpp.o.ddi
-  FLAGS = -g -std=gnu++20
+  FLAGS = -g -std=gnu++23
   OBJ_FILE = CMakeFiles/task3_4.dir/src_list3/task4.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/task3_4.dir/src_list3/task4.cpp.o.ddi.i
 
@@ -156,7 +156,7 @@ build CMakeFiles/task3_4.dir/src_list3/task4.cpp.o: CXX_COMPILER__task3_4_scanne
   CONFIG = Debug
   DEP_FILE = CMakeFiles/task3_4.dir/src_list3/task4.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/task3_4.dir/src_list3/task4.cpp.o.modmap
-  FLAGS = -g -std=gnu++20
+  FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles/task3_4.dir
   OBJECT_FILE_DIR = CMakeFiles/task3_4.dir/src_list3
   TARGET_SUPPORT_DIR = CMakeFiles/task3_4.dir
@@ -196,7 +196,7 @@ build cmake_object_order_depends_target_task3_5: phony || .
 build CMakeFiles/task3_5.dir/src_list3/task5.cpp.o.ddi: CXX_SCAN__task3_5_Debug /home/szymon/Documents/Git/pwdp3/src_list3/task5.cpp || cmake_object_order_depends_target_task3_5
   DEP_FILE = CMakeFiles/task3_5.dir/src_list3/task5.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/task3_5.dir/src_list3/task5.cpp.o.ddi
-  FLAGS = -g -std=gnu++20
+  FLAGS = -g -std=gnu++23
   OBJ_FILE = CMakeFiles/task3_5.dir/src_list3/task5.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/task3_5.dir/src_list3/task5.cpp.o.ddi.i
 
@@ -204,7 +204,7 @@ build CMakeFiles/task3_5.dir/src_list3/task5.cpp.o: CXX_COMPILER__task3_5_scanne
   CONFIG = Debug
   DEP_FILE = CMakeFiles/task3_5.dir/src_list3/task5.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/task3_5.dir/src_list3/task5.cpp.o.modmap
-  FLAGS = -g -std=gnu++20
+  FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles/task3_5.dir
   OBJECT_FILE_DIR = CMakeFiles/task3_5.dir/src_list3
   TARGET_SUPPORT_DIR = CMakeFiles/task3_5.dir
@@ -244,7 +244,7 @@ build cmake_object_order_depends_target_task3_6: phony || .
 build CMakeFiles/task3_6.dir/src_list3/task6.cpp.o.ddi: CXX_SCAN__task3_6_Debug /home/szymon/Documents/Git/pwdp3/src_list3/task6.cpp || cmake_object_order_depends_target_task3_6
   DEP_FILE = CMakeFiles/task3_6.dir/src_list3/task6.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/task3_6.dir/src_list3/task6.cpp.o.ddi
-  FLAGS = -g -std=gnu++20
+  FLAGS = -g -std=gnu++23
   OBJ_FILE = CMakeFiles/task3_6.dir/src_list3/task6.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/task3_6.dir/src_list3/task6.cpp.o.ddi.i
 
@@ -252,7 +252,7 @@ build CMakeFiles/task3_6.dir/src_list3/task6.cpp.o: CXX_COMPILER__task3_6_scanne
   CONFIG = Debug
   DEP_FILE = CMakeFiles/task3_6.dir/src_list3/task6.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/task3_6.dir/src_list3/task6.cpp.o.modmap
-  FLAGS = -g -std=gnu++20
+  FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles/task3_6.dir
   OBJECT_FILE_DIR = CMakeFiles/task3_6.dir/src_list3
   TARGET_SUPPORT_DIR = CMakeFiles/task3_6.dir
@@ -292,7 +292,7 @@ build cmake_object_order_depends_target_task4_1: phony || .
 build CMakeFiles/task4_1.dir/src_list4/task1.cpp.o.ddi: CXX_SCAN__task4_1_Debug /home/szymon/Documents/Git/pwdp3/src_list4/task1.cpp || cmake_object_order_depends_target_task4_1
   DEP_FILE = CMakeFiles/task4_1.dir/src_list4/task1.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/task4_1.dir/src_list4/task1.cpp.o.ddi
-  FLAGS = -g -std=gnu++20
+  FLAGS = -g -std=gnu++23
   OBJ_FILE = CMakeFiles/task4_1.dir/src_list4/task1.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/task4_1.dir/src_list4/task1.cpp.o.ddi.i
 
@@ -300,7 +300,7 @@ build CMakeFiles/task4_1.dir/src_list4/task1.cpp.o: CXX_COMPILER__task4_1_scanne
   CONFIG = Debug
   DEP_FILE = CMakeFiles/task4_1.dir/src_list4/task1.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/task4_1.dir/src_list4/task1.cpp.o.modmap
-  FLAGS = -g -std=gnu++20
+  FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles/task4_1.dir
   OBJECT_FILE_DIR = CMakeFiles/task4_1.dir/src_list4
   TARGET_SUPPORT_DIR = CMakeFiles/task4_1.dir
@@ -340,7 +340,7 @@ build cmake_object_order_depends_target_task4_2: phony || .
 build CMakeFiles/task4_2.dir/src_list4/task2.cpp.o.ddi: CXX_SCAN__task4_2_Debug /home/szymon/Documents/Git/pwdp3/src_list4/task2.cpp || cmake_object_order_depends_target_task4_2
   DEP_FILE = CMakeFiles/task4_2.dir/src_list4/task2.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/task4_2.dir/src_list4/task2.cpp.o.ddi
-  FLAGS = -g -std=gnu++20
+  FLAGS = -g -std=gnu++23
   OBJ_FILE = CMakeFiles/task4_2.dir/src_list4/task2.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/task4_2.dir/src_list4/task2.cpp.o.ddi.i
 
@@ -348,7 +348,7 @@ build CMakeFiles/task4_2.dir/src_list4/task2.cpp.o: CXX_COMPILER__task4_2_scanne
   CONFIG = Debug
   DEP_FILE = CMakeFiles/task4_2.dir/src_list4/task2.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/task4_2.dir/src_list4/task2.cpp.o.modmap
-  FLAGS = -g -std=gnu++20
+  FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles/task4_2.dir
   OBJECT_FILE_DIR = CMakeFiles/task4_2.dir/src_list4
   TARGET_SUPPORT_DIR = CMakeFiles/task4_2.dir
@@ -388,7 +388,7 @@ build cmake_object_order_depends_target_task4_3a: phony || .
 build CMakeFiles/task4_3a.dir/src_list4/task3a.cpp.o.ddi: CXX_SCAN__task4_3a_Debug /home/szymon/Documents/Git/pwdp3/src_list4/task3a.cpp || cmake_object_order_depends_target_task4_3a
   DEP_FILE = CMakeFiles/task4_3a.dir/src_list4/task3a.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/task4_3a.dir/src_list4/task3a.cpp.o.ddi
-  FLAGS = -g -std=gnu++20
+  FLAGS = -g -std=gnu++23
   OBJ_FILE = CMakeFiles/task4_3a.dir/src_list4/task3a.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/task4_3a.dir/src_list4/task3a.cpp.o.ddi.i
 
@@ -396,7 +396,7 @@ build CMakeFiles/task4_3a.dir/src_list4/task3a.cpp.o: CXX_COMPILER__task4_3a_sca
   CONFIG = Debug
   DEP_FILE = CMakeFiles/task4_3a.dir/src_list4/task3a.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/task4_3a.dir/src_list4/task3a.cpp.o.modmap
-  FLAGS = -g -std=gnu++20
+  FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles/task4_3a.dir
   OBJECT_FILE_DIR = CMakeFiles/task4_3a.dir/src_list4
   TARGET_SUPPORT_DIR = CMakeFiles/task4_3a.dir
@@ -436,7 +436,7 @@ build cmake_object_order_depends_target_task4_3b: phony || .
 build CMakeFiles/task4_3b.dir/src_list4/task3b.cpp.o.ddi: CXX_SCAN__task4_3b_Debug /home/szymon/Documents/Git/pwdp3/src_list4/task3b.cpp || cmake_object_order_depends_target_task4_3b
   DEP_FILE = CMakeFiles/task4_3b.dir/src_list4/task3b.cpp.o.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles/task4_3b.dir/src_list4/task3b.cpp.o.ddi
-  FLAGS = -g -std=gnu++20
+  FLAGS = -g -std=gnu++23
   OBJ_FILE = CMakeFiles/task4_3b.dir/src_list4/task3b.cpp.o
   PREPROCESSED_OUTPUT_FILE = CMakeFiles/task4_3b.dir/src_list4/task3b.cpp.o.ddi.i
 
@@ -444,7 +444,7 @@ build CMakeFiles/task4_3b.dir/src_list4/task3b.cpp.o: CXX_COMPILER__task4_3b_sca
   CONFIG = Debug
   DEP_FILE = CMakeFiles/task4_3b.dir/src_list4/task3b.cpp.o.d
   DYNDEP_MODULE_MAP_FILE = CMakeFiles/task4_3b.dir/src_list4/task3b.cpp.o.modmap
-  FLAGS = -g -std=gnu++20
+  FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles/task4_3b.dir
   OBJECT_FILE_DIR = CMakeFiles/task4_3b.dir/src_list4
   TARGET_SUPPORT_DIR = CMakeFiles/task4_3b.dir
@@ -471,6 +471,102 @@ build task4_3b: CXX_EXECUTABLE_LINKER__task4_3b_Debug CMakeFiles/task4_3b.dir/sr
   TARGET_FILE = task4_3b
   TARGET_PDB = task4_3b.dbg
   TARGET_SUPPORT_DIR = CMakeFiles/task4_3b.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task5_1
+
+
+#############################################
+# Order-only phony target for task5_1
+
+build cmake_object_order_depends_target_task5_1: phony || .
+
+build CMakeFiles/task5_1.dir/src_list5/task1.cpp.o.ddi: CXX_SCAN__task5_1_Debug /home/szymon/Documents/Git/pwdp3/src_list5/task1.cpp || cmake_object_order_depends_target_task5_1
+  DEP_FILE = CMakeFiles/task5_1.dir/src_list5/task1.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/task5_1.dir/src_list5/task1.cpp.o.ddi
+  FLAGS = -g -std=gnu++23
+  OBJ_FILE = CMakeFiles/task5_1.dir/src_list5/task1.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/task5_1.dir/src_list5/task1.cpp.o.ddi.i
+
+build CMakeFiles/task5_1.dir/src_list5/task1.cpp.o: CXX_COMPILER__task5_1_scanned_Debug /home/szymon/Documents/Git/pwdp3/src_list5/task1.cpp | CMakeFiles/task5_1.dir/src_list5/task1.cpp.o.modmap || cmake_object_order_depends_target_task5_1 CMakeFiles/task5_1.dir/CXX.dd
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/task5_1.dir/src_list5/task1.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/task5_1.dir/src_list5/task1.cpp.o.modmap
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles/task5_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/task5_1.dir/src_list5
+  TARGET_SUPPORT_DIR = CMakeFiles/task5_1.dir
+  dyndep = CMakeFiles/task5_1.dir/CXX.dd
+
+build CMakeFiles/task5_1.dir/CXX.dd | CMakeFiles/task5_1.dir/CXXModules.json CMakeFiles/task5_1.dir/src_list5/task1.cpp.o.modmap: CXX_DYNDEP__task5_1_Debug CMakeFiles/task5_1.dir/src_list5/task1.cpp.o.ddi | /home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task5_1.dir/CXXDependInfo.json
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task5_1
+
+
+#############################################
+# Link the executable task5_1
+
+build task5_1: CXX_EXECUTABLE_LINKER__task5_1_Debug CMakeFiles/task5_1.dir/src_list5/task1.cpp.o
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/task5_1.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/task5_1.dir/link.d
+  OBJECT_DIR = CMakeFiles/task5_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = task5_1
+  TARGET_PDB = task5_1.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles/task5_1.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task5_2
+
+
+#############################################
+# Order-only phony target for task5_2
+
+build cmake_object_order_depends_target_task5_2: phony || .
+
+build CMakeFiles/task5_2.dir/src_list5/task2.cpp.o.ddi: CXX_SCAN__task5_2_Debug /home/szymon/Documents/Git/pwdp3/src_list5/task2.cpp || cmake_object_order_depends_target_task5_2
+  DEP_FILE = CMakeFiles/task5_2.dir/src_list5/task2.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/task5_2.dir/src_list5/task2.cpp.o.ddi
+  FLAGS = -g -std=gnu++23
+  OBJ_FILE = CMakeFiles/task5_2.dir/src_list5/task2.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/task5_2.dir/src_list5/task2.cpp.o.ddi.i
+
+build CMakeFiles/task5_2.dir/src_list5/task2.cpp.o: CXX_COMPILER__task5_2_scanned_Debug /home/szymon/Documents/Git/pwdp3/src_list5/task2.cpp | CMakeFiles/task5_2.dir/src_list5/task2.cpp.o.modmap || cmake_object_order_depends_target_task5_2 CMakeFiles/task5_2.dir/CXX.dd
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/task5_2.dir/src_list5/task2.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/task5_2.dir/src_list5/task2.cpp.o.modmap
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles/task5_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/task5_2.dir/src_list5
+  TARGET_SUPPORT_DIR = CMakeFiles/task5_2.dir
+  dyndep = CMakeFiles/task5_2.dir/CXX.dd
+
+build CMakeFiles/task5_2.dir/CXX.dd | CMakeFiles/task5_2.dir/CXXModules.json CMakeFiles/task5_2.dir/src_list5/task2.cpp.o.modmap: CXX_DYNDEP__task5_2_Debug CMakeFiles/task5_2.dir/src_list5/task2.cpp.o.ddi | /home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task5_2.dir/CXXDependInfo.json
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task5_2
+
+
+#############################################
+# Link the executable task5_2
+
+build task5_2: CXX_EXECUTABLE_LINKER__task5_2_Debug CMakeFiles/task5_2.dir/src_list5/task2.cpp.o
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/task5_2.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/task5_2.dir/link.d
+  OBJECT_DIR = CMakeFiles/task5_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = task5_2
+  TARGET_PDB = task5_2.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles/task5_2.dir
 
 
 #############################################
@@ -506,7 +602,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/szymon/Documents/Git/pwdp3/build
 
-build all: phony task3_1 task3_2 task3_4 task3_5 task3_6 task4_1 task4_2 task4_3a task4_3b
+build all: phony task3_1 task3_2 task3_4 task3_5 task3_6 task4_1 task4_2 task4_3a task4_3b task5_1 task5_2
 
 # =============================================================================
 # Built-in targets
