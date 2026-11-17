@@ -104,13 +104,12 @@ CMakeFiles/task4_2.dir/src_list4/task2.cpp.o.ddi: \
  /usr/include/c++/15/bits/ostream_insert.h \
  /usr/include/c++/15/bits/cxxabi_forced.h \
  /usr/include/c++/15/bits/stl_iterator.h \
- /usr/include/c++/15/ext/type_traits.h \
+ /usr/include/c++/15/ext/type_traits.h /usr/include/c++/15/bits/utility.h \
  /usr/include/c++/15/bits/stl_function.h \
  /usr/include/c++/15/backward/binders.h \
  /usr/include/c++/15/ext/numeric_traits.h \
  /usr/include/c++/15/bits/stl_algobase.h \
- /usr/include/c++/15/bits/stl_pair.h /usr/include/c++/15/bits/utility.h \
- /usr/include/c++/15/debug/debug.h \
+ /usr/include/c++/15/bits/stl_pair.h /usr/include/c++/15/debug/debug.h \
  /usr/include/c++/15/bits/predefined_ops.h /usr/include/c++/15/bit \
  /usr/include/c++/15/bits/refwrap.h /usr/include/c++/15/bits/invoke.h \
  /usr/include/c++/15/bits/range_access.h \
@@ -122,6 +121,8 @@ CMakeFiles/task4_2.dir/src_list4/task2.cpp.o.ddi: \
  /usr/include/c++/15/bits/ranges_base.h \
  /usr/include/c++/15/bits/max_size_type.h /usr/include/c++/15/numbers \
  /usr/include/c++/15/bits/string_view.tcc \
+ /usr/include/c++/15/bits/ranges_algobase.h \
+ /usr/include/c++/15/bits/ranges_util.h \
  /usr/include/c++/15/ext/string_conversions.h /usr/include/c++/15/cstdlib \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -149,7 +150,6 @@ CMakeFiles/task4_2.dir/src_list4/task2.cpp.o.ddi: \
  /usr/include/c++/15/bits/memory_resource.h /usr/include/c++/15/cstddef \
  /usr/include/c++/15/bits/uses_allocator.h \
  /usr/include/c++/15/bits/uses_allocator_args.h /usr/include/c++/15/tuple \
- /usr/include/c++/15/bits/ranges_util.h \
  /usr/include/c++/15/bits/locale_classes.tcc \
  /usr/include/c++/15/system_error \
  /usr/include/x86_64-linux-gnu/c++/15/bits/error_constants.h \
@@ -163,24 +163,19 @@ CMakeFiles/task4_2.dir/src_list4/task2.cpp.o.ddi: \
  /usr/include/x86_64-linux-gnu/c++/15/bits/ctype_inline.h \
  /usr/include/c++/15/bits/locale_facets.tcc \
  /usr/include/c++/15/bits/basic_ios.tcc /usr/include/c++/15/ostream \
- /usr/include/c++/15/bits/ostream.h /usr/include/c++/15/bits/ostream.tcc \
- /usr/include/c++/15/bits/istream.tcc /usr/include/c++/15/bits/codecvt.h \
- /usr/include/x86_64-linux-gnu/c++/15/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/15/bits/c++io.h \
- /usr/include/c++/15/bits/fstream.tcc /usr/include/c++/15/iostream \
- /usr/include/c++/15/format /usr/include/c++/15/array \
- /usr/include/c++/15/charconv /usr/include/c++/15/limits \
- /usr/include/c++/15/locale \
+ /usr/include/c++/15/bits/ostream.h /usr/include/c++/15/format \
+ /usr/include/c++/15/array /usr/include/c++/15/charconv \
+ /usr/include/c++/15/limits /usr/include/c++/15/locale \
  /usr/include/c++/15/bits/locale_facets_nonio.h /usr/include/c++/15/ctime \
  /usr/include/x86_64-linux-gnu/c++/15/bits/time_members.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/15/bits/locale_facets_nonio.tcc \
+ /usr/include/libintl.h /usr/include/c++/15/bits/codecvt.h \
+ /usr/include/c++/15/bits/locale_facets_nonio.tcc \
  /usr/include/c++/15/bits/locale_conv.h /usr/include/c++/15/optional \
  /usr/include/c++/15/bits/enable_special_members.h \
  /usr/include/c++/15/span /usr/include/c++/15/bits/monostate.h \
- /usr/include/c++/15/bits/formatfwd.h \
- /usr/include/c++/15/bits/ranges_algobase.h \
- /usr/include/c++/15/bits/unicode.h /usr/include/c++/15/cstdint \
+ /usr/include/c++/15/bits/formatfwd.h /usr/include/c++/15/bits/unicode.h \
+ /usr/include/c++/15/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
@@ -189,8 +184,9 @@ CMakeFiles/task4_2.dir/src_list4/task2.cpp.o.ddi: \
  /usr/include/c++/15/bits/stl_heap.h \
  /usr/include/c++/15/bits/uniform_int_dist.h \
  /usr/include/c++/15/bits/stl_tempbuf.h \
- /usr/include/c++/15/bits/unicode-data.h /usr/include/c++/15/vector \
- /usr/include/c++/15/bits/stl_uninitialized.h \
- /usr/include/c++/15/bits/stl_vector.h \
- /usr/include/c++/15/bits/stl_bvector.h \
- /usr/include/c++/15/bits/vector.tcc
+ /usr/include/c++/15/bits/unicode-data.h \
+ /usr/include/c++/15/bits/ostream.tcc \
+ /usr/include/c++/15/bits/istream.tcc \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/c++io.h \
+ /usr/include/c++/15/bits/fstream.tcc /usr/include/c++/15/iostream

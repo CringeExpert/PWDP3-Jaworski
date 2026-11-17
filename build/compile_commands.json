@@ -64,5 +64,17 @@
   "command": "/usr/bin/g++ -g -std=gnu++23 -fmodules-ts -fmodule-mapper=CMakeFiles/task5_2.dir/src_list5/task2.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/task5_2.dir/src_list5/task2.cpp.o -c /home/szymon/Documents/Git/pwdp3/src_list5/task2.cpp",
   "file": "/home/szymon/Documents/Git/pwdp3/src_list5/task2.cpp",
   "output": "/home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task5_2.dir/src_list5/task2.cpp.o"
+},
+{
+  "directory": "/home/szymon/Documents/Git/pwdp3/build",
+  "command": "/usr/bin/g++ -g -std=gnu++23 -fmodules-ts -fmodule-mapper=CMakeFiles/task6_1.dir/src_list6/task1.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/task6_1.dir/src_list6/task1.cpp.o -c /home/szymon/Documents/Git/pwdp3/src_list6/task1.cpp",
+  "file": "/home/szymon/Documents/Git/pwdp3/src_list6/task1.cpp",
+  "output": "/home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task6_1.dir/src_list6/task1.cpp.o"
+},
+{
+  "directory": "/home/szymon/Documents/Git/pwdp3/build",
+  "command": "/usr/bin/g++ -g -std=gnu++23 -fmodules-ts -fmodule-mapper=CMakeFiles/task6_2.dir/src_list6/task2.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/task6_2.dir/src_list6/task2.cpp.o -c /home/szymon/Documents/Git/pwdp3/src_list6/task2.cpp",
+  "file": "/home/szymon/Documents/Git/pwdp3/src_list6/task2.cpp",
+  "output": "/home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task6_2.dir/src_list6/task2.cpp.o"
 }
 ]

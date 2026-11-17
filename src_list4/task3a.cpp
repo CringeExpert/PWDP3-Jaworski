@@ -17,6 +17,7 @@ int main()
 
     vector<vector<vector<int>>> pixels;
     pixels.resize(height);
+    
     for (int i = 0; i < pixels.size(); i++)
     {
         pixels[i].resize(length);

@@ -9,5 +9,7 @@
 /home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task4_3b.dir
 /home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task5_1.dir
 /home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task5_2.dir
+/home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task6_1.dir
+/home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task6_2.dir
 /home/szymon/Documents/Git/pwdp3/build/CMakeFiles/edit_cache.dir
 /home/szymon/Documents/Git/pwdp3/build/CMakeFiles/rebuild_cache.dir

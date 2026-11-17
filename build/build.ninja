@@ -568,6 +568,102 @@ build task5_2: CXX_EXECUTABLE_LINKER__task5_2_Debug CMakeFiles/task5_2.dir/src_l
   TARGET_PDB = task5_2.dbg
   TARGET_SUPPORT_DIR = CMakeFiles/task5_2.dir
 
+# =============================================================================
+# Object build statements for EXECUTABLE target task6_1
+
+
+#############################################
+# Order-only phony target for task6_1
+
+build cmake_object_order_depends_target_task6_1: phony || .
+
+build CMakeFiles/task6_1.dir/src_list6/task1.cpp.o.ddi: CXX_SCAN__task6_1_Debug /home/szymon/Documents/Git/pwdp3/src_list6/task1.cpp || cmake_object_order_depends_target_task6_1
+  DEP_FILE = CMakeFiles/task6_1.dir/src_list6/task1.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/task6_1.dir/src_list6/task1.cpp.o.ddi
+  FLAGS = -g -std=gnu++23
+  OBJ_FILE = CMakeFiles/task6_1.dir/src_list6/task1.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/task6_1.dir/src_list6/task1.cpp.o.ddi.i
+
+build CMakeFiles/task6_1.dir/src_list6/task1.cpp.o: CXX_COMPILER__task6_1_scanned_Debug /home/szymon/Documents/Git/pwdp3/src_list6/task1.cpp | CMakeFiles/task6_1.dir/src_list6/task1.cpp.o.modmap || cmake_object_order_depends_target_task6_1 CMakeFiles/task6_1.dir/CXX.dd
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/task6_1.dir/src_list6/task1.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/task6_1.dir/src_list6/task1.cpp.o.modmap
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles/task6_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/task6_1.dir/src_list6
+  TARGET_SUPPORT_DIR = CMakeFiles/task6_1.dir
+  dyndep = CMakeFiles/task6_1.dir/CXX.dd
+
+build CMakeFiles/task6_1.dir/CXX.dd | CMakeFiles/task6_1.dir/CXXModules.json CMakeFiles/task6_1.dir/src_list6/task1.cpp.o.modmap: CXX_DYNDEP__task6_1_Debug CMakeFiles/task6_1.dir/src_list6/task1.cpp.o.ddi | /home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task6_1.dir/CXXDependInfo.json
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task6_1
+
+
+#############################################
+# Link the executable task6_1
+
+build task6_1: CXX_EXECUTABLE_LINKER__task6_1_Debug CMakeFiles/task6_1.dir/src_list6/task1.cpp.o
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/task6_1.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/task6_1.dir/link.d
+  OBJECT_DIR = CMakeFiles/task6_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = task6_1
+  TARGET_PDB = task6_1.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles/task6_1.dir
+
+# =============================================================================
+# Object build statements for EXECUTABLE target task6_2
+
+
+#############################################
+# Order-only phony target for task6_2
+
+build cmake_object_order_depends_target_task6_2: phony || .
+
+build CMakeFiles/task6_2.dir/src_list6/task2.cpp.o.ddi: CXX_SCAN__task6_2_Debug /home/szymon/Documents/Git/pwdp3/src_list6/task2.cpp || cmake_object_order_depends_target_task6_2
+  DEP_FILE = CMakeFiles/task6_2.dir/src_list6/task2.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/task6_2.dir/src_list6/task2.cpp.o.ddi
+  FLAGS = -g -std=gnu++23
+  OBJ_FILE = CMakeFiles/task6_2.dir/src_list6/task2.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/task6_2.dir/src_list6/task2.cpp.o.ddi.i
+
+build CMakeFiles/task6_2.dir/src_list6/task2.cpp.o: CXX_COMPILER__task6_2_scanned_Debug /home/szymon/Documents/Git/pwdp3/src_list6/task2.cpp | CMakeFiles/task6_2.dir/src_list6/task2.cpp.o.modmap || cmake_object_order_depends_target_task6_2 CMakeFiles/task6_2.dir/CXX.dd
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/task6_2.dir/src_list6/task2.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/task6_2.dir/src_list6/task2.cpp.o.modmap
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles/task6_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/task6_2.dir/src_list6
+  TARGET_SUPPORT_DIR = CMakeFiles/task6_2.dir
+  dyndep = CMakeFiles/task6_2.dir/CXX.dd
+
+build CMakeFiles/task6_2.dir/CXX.dd | CMakeFiles/task6_2.dir/CXXModules.json CMakeFiles/task6_2.dir/src_list6/task2.cpp.o.modmap: CXX_DYNDEP__task6_2_Debug CMakeFiles/task6_2.dir/src_list6/task2.cpp.o.ddi | /home/szymon/Documents/Git/pwdp3/build/CMakeFiles/task6_2.dir/CXXDependInfo.json
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target task6_2
+
+
+#############################################
+# Link the executable task6_2
+
+build task6_2: CXX_EXECUTABLE_LINKER__task6_2_Debug CMakeFiles/task6_2.dir/src_list6/task2.cpp.o
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/task6_2.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/task6_2.dir/link.d
+  OBJECT_DIR = CMakeFiles/task6_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = task6_2
+  TARGET_PDB = task6_2.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles/task6_2.dir
+
 
 #############################################
 # Utility command for edit_cache
@@ -602,7 +698,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/szymon/Documents/Git/pwdp3/build
 
-build all: phony task3_1 task3_2 task3_4 task3_5 task3_6 task4_1 task4_2 task4_3a task4_3b task5_1 task5_2
+build all: phony task3_1 task3_2 task3_4 task3_5 task3_6 task4_1 task4_2 task4_3a task4_3b task5_1 task5_2 task6_1 task6_2
 
 # =============================================================================
 # Built-in targets

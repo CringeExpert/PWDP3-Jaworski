@@ -1,4 +1,5 @@
 #include <print>
+#include <algorithm>
 
 using namespace std;
 
@@ -13,33 +14,25 @@ unsigned collatz(unsigned n)
     return n;
 }
 
-unsigned collatz_properties[2];
-void collatz_properties(unsigned n){
-
-    unsigned tmp = collatz(n);
-    int counter = 0;
-    int max = 0;
-
-    tmp = collatz(n);
-    while (tmp = (collatz(tmp) > 0))
-    {
-        counter += 1;
-
-        if (max < tmp)
-            max = tmp;
-        
-    }
-
-    collatz_properties[0] = counter;
-    collatz_properties[1] = max;
-}
-
 int main()
 {
-    for (int n = 1; n < 10; n++)
+    for (int n = 1; n <= 10; n++)
     {
-        println("{}{^5}{}", n, collatz_properties[0], collatz_properties[1]);
+        
+        int counter = 1;
+        int maxNumber = n;
+        
+        int i = n;
+        while (i > 1)
+        {
+            counter += 1;
+            
+            maxNumber = max(i,maxNumber);
 
-        if ()
+            i = collatz(i);
+        }
+
+        println("{:<6}{:^6}{:>6}", n, counter, maxNumber);
+           
     }
 }

@@ -7,6 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # add_executable(temp temp.cpp)
 
+
 add_executable(task3_1 src_list3/task1.cpp)
 add_executable(task3_2 src_list3/task2.cpp)
 add_executable(task3_4 src_list3/task4.cpp)
@@ -20,3 +21,6 @@ add_executable(task4_3b src_list4/task3b.cpp)
 
 add_executable(task5_1 src_list5/task1.cpp)
 add_executable(task5_2 src_list5/task2.cpp)
+
+add_executable(task6_1 src_list6/task1.cpp)
+add_executable(task6_2 src_list6/task2.cpp)

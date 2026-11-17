@@ -6,7 +6,7 @@
 using namespace std;
 
 int main(){
-    string fileNameIn = "../1.pgm";
+    string fileNameIn = "../img.pgm";
     string fileNameOut = "../asciiArt";
     std::ifstream in(fileNameIn);
     std::ofstream out(fileNameOut);
@@ -14,8 +14,8 @@ int main(){
     if (!in)
         throw std::runtime_error(std::format("Failed to open {}",fileNameIn));
 
-    string header;
 
+    string header;
     in >> header;
     if (header != "P2")
         throw std::runtime_error("File type is wrong");
@@ -29,20 +29,20 @@ int main(){
     in >> height;
     in >> len1;
 
-    char ascii[] = ".'`^,:;Il!i><~+_-?][}{1)(|/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$";
+    char ascii[] = " ..,:;!=oxO#%@";
 
-    const int len2 = sizeof(ascii) - 1;
+    const int len2 = size(ascii) - 2;
 
     for(int i = 0; i < width; i++){
 
         for(int j = 0; j < height; j++){
             in >> tmp;
-            tmp = tmp * len2 / (len1 + 1); 
+            tmp = (tmp*(len2))/(len1); 
             out << ascii[tmp] << "";
         }
         
-        out << endl;
-
+        out << '\n';
+        
     }
 
 }
