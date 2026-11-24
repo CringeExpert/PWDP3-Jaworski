@@ -1,6 +1,5 @@
 #include <print>
 
-using namespace std;
 
 //a -----------------
 int suma( int tab[], int size)
@@ -10,17 +9,16 @@ int suma( int tab[], int size)
 
         for (int i = 0; i < size; i++)
             suma += tab[i];
-            
         
         return suma;
         
     }
 
 //b -----------------
-void pprint(int tab[], int size)
+void print(int tab[], int size)
 {
         for(int i = 0; i < size; i++)
-            print("{} ",tab[i]);
+            std::print("{} ",tab[i]);
 }
 
 //c -----------------
@@ -39,12 +37,12 @@ void inverse(int tab[], int size)
 //d -----------------
 void seq(int tab[], int size, int a0, int r)
 {
-    int suma = a0;
+    int a_n = a0;
 
     for(int i = 0; i < size; i++)
     {
-        tab[i] = suma;
-        suma += r;
+        tab[i] = a_n;
+        a_n += r;
     }
 }
 
@@ -57,20 +55,20 @@ int main()
     int d[5];
 
     //a
-    print("\na)\n{}",suma(a,size(a)));
+    std::print("\na)\n{}",suma(a, std::size(a)));
 
     //b
-    println("\n\nb)");
-    pprint(b,size(b));
+    std::println("\n\nb)");
+    print(b,std::size(b));
 
     //c
-    println("\n\nc)");
-    inverse(c,size(c));
-    pprint(c,size(c));
+    std::println("\n\nc)");
+    inverse(c,std::size(c));
+    print(c,std::size(c));
 
     //d
-    println("\n\nd)\n");
-    seq(d, size(d),0,10);
-    pprint(d, size(d));
+    std::println("\n\nd)\n");
+    seq(d, std::size(d),0,10);
+    print(d, std::size(d));
 
 }

@@ -65799,10 +65799,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
 # 2 "/home/szymon/Documents/Git/pwdp3/src_list5/task1.cpp" 2
 
 
-# 3 "/home/szymon/Documents/Git/pwdp3/src_list5/task1.cpp"
-using namespace std;
 
 
+# 5 "/home/szymon/Documents/Git/pwdp3/src_list5/task1.cpp"
 int suma( int tab[], int size)
     {
 
@@ -65811,16 +65810,15 @@ int suma( int tab[], int size)
         for (int i = 0; i < size; i++)
             suma += tab[i];
 
-
         return suma;
 
     }
 
 
-void pprint(int tab[], int size)
+void print(int tab[], int size)
 {
         for(int i = 0; i < size; i++)
-            print("{} ",tab[i]);
+            std::print("{} ",tab[i]);
 }
 
 
@@ -65839,12 +65837,12 @@ void inverse(int tab[], int size)
 
 void seq(int tab[], int size, int a0, int r)
 {
-    int suma = a0;
+    int a_n = a0;
 
     for(int i = 0; i < size; i++)
     {
-        tab[i] = suma;
-        suma += r;
+        tab[i] = a_n;
+        a_n += r;
     }
 }
 
@@ -65857,20 +65855,20 @@ int main()
     int d[5];
 
 
-    print("\na)\n{}",suma(a,size(a)));
+    std::print("\na)\n{}",suma(a, std::size(a)));
 
 
-    println("\n\nb)");
-    pprint(b,size(b));
+    std::println("\n\nb)");
+    print(b,std::size(b));
 
 
-    println("\n\nc)");
-    inverse(c,size(c));
-    pprint(c,size(c));
+    std::println("\n\nc)");
+    inverse(c,std::size(c));
+    print(c,std::size(c));
 
 
-    println("\n\nd)\n");
-    seq(d, size(d),0,10);
-    pprint(d, size(d));
+    std::println("\n\nd)\n");
+    seq(d, std::size(d),0,10);
+    print(d, std::size(d));
 
 }

@@ -70492,6 +70492,5 @@ int main()
 
         println("{:<6}{:^6}{:>6}", n, counter, maxNumber);
 
-
     }
 }
